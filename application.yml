@@ -1,2 +1,4 @@
 my.greeting : greeting from default application yml 
+db :
+ username: teju
 
