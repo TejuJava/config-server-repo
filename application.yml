@@ -6,4 +6,21 @@ eureka:
     hostname: localhost
 
 
+microservice:
+  order-service:
+    endpoints:
+      endpoint:
+        uri: http://ORDER-SERVICE/orders/createOrder
+  payment-service:
+    endpoints:
+      endpoint:
+        uri: http://PAYMENT-SERVICE/payment/doPayment
+  identity-service:
+    endpoints:
+      endpoint:
+        uri: http://IDENTITY-SERVICE/auth/
+        
+       
+
+
 
