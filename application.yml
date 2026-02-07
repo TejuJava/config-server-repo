@@ -19,7 +19,9 @@ microservice:
     endpoints:
       endpoint:
         uri: http://IDENTITY-SERVICE/auth/
-        
+
+test:
+  user:random
        
 
 
