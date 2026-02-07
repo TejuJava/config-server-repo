@@ -21,7 +21,7 @@ microservice:
         uri: http://IDENTITY-SERVICE/auth/
 
 test:
-  user:random
+  user: random
        
 
 
